@@ -92,7 +92,7 @@ Here is my wireframe. I built it first with a phone in mind.
 | Checking for errors in CSS styling | H | 3 hrs| 0 hrs | 0 hrs |
 | Deploy the website, get it peered review | L | 2 hrs| 0 hrs | 0 hrs |
 | Practice presnetation | L | 2 hrs| 0 hrs | 0 hrs |
-| Total | H | 30rs| 0hrs | 0hrs |
+| Total | N/A | 33hrs| 0hrs | 0hrs |
 
 
 ## Code Snippet
