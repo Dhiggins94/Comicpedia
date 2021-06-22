@@ -87,11 +87,12 @@ Here is my wireframe. I built it first with a phone in mind.
 | Advance styling for css(flexbox) | H | 3 hrs| 0 hrs | 0 hrs |
 | writing Pseudocode | H| 3 hrs| 0 hrs | 0 hrs |
 | Using media queries for phones/desktops | H | 3 hrs| 0 hrs | 0 hrs |
-| Checking for errors in javascript/html/css | M | 3 hrs| 0 hrs | 0 hrs |
+| Checking for errors in javascript | H | 3 hrs| 0 hrs | 0 hrs |
+| Checking for errors in CSS styling | H | 3 hrs| 0 hrs | 0 hrs |
 | Deploy the website, get it peered review | L | 2 hrs| 0 hrs | 0 hrs |
 | Practice presnetation | L | 2 hrs| 0 hrs | 0 hrs |
 
-| Total | H | 40rs| 0hrs | 0hrs |
+| Total | H | 30rs| 0hrs | 0hrs |
 
 
 ## Code Snippet
