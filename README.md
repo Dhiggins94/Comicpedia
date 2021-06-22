@@ -80,8 +80,8 @@ Here is my wireframe. I built it first with a phone in mind.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Getting the API rendering data | M | 3 hrs| 0 hrs | 0 hrs |
-| writing Pseudocode | M| 3 hrs| 0 hrs | 0 hrs |
+| Getting the API rendering data | M | 1 hrs| 0 hrs | 0 hrs |
+| writing Pseudocode | M| 1 hrs| 0 hrs | 0 hrs |
 | Setting up the html and css | H | 3hrs| 0 hrs | 0 hrs |
 | Get functionality on the about me | L | 2 hrs| 0 hrs | 0 hrs |
 | Get functionality on the buttons | H | 3hrs| 0 hrs | 0 hrs |
