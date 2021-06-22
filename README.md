@@ -81,9 +81,13 @@ Here is my wireframe. I built it first with a phone in mind.
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Getting the API rendering data | M | 3 hrs| 0 hrs | 0 hrs |
-| Setting up the html and css | M | 8hrs| 0 hrs | 0 hrs |
+| Setting up the html | M | 3hrs| 0 hrs | 0 hrs |
 | get functionality on the about me | L | 2 hrs| 0 hrs | 0 hrs |
-| Get functionality on the buttons | H | 8hrs| 0 hrs | 0 hrs |
+| Get functionality on the buttons | H | 3hrs| 0 hrs | 0 hrs |
+| Advance styling for css(flexbox) | H | 3 hrs| 0 hrs | 0 hrs |
+| writing Pseudocode | H| 3 hrs| 0 hrs | 0 hrs |
+| Using media queries for phones/desktops | H | 3 hrs| 0 hrs | 0 hrs |
+| PlayTesting the site/Checking for errors | M | 3 hrs| 0 hrs | 0 hrs |
 | Total | H | 40rs| 0hrs | 0hrs |
 
 
