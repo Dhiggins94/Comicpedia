@@ -69,7 +69,7 @@ Here is my wireframe. I built it first with a phone in mind.
 
 
 
-![Priority Matrix](https://i.imgur.com/AeXnIUT.png "Priority Matrix")
+![Priority Matrix](https://i.imgur.com/da1eJFp.png"Priority Matrix")
 
 
 
