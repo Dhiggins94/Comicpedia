@@ -13,7 +13,7 @@ This website will enable the user select between hero, or villian  and get a ran
 
 i intend to use this superheroAPI. https://superheroapi.com/index.html. here is the json of a characters biography 
 
-{
+```{
     "response": "success",
     "id": "66",
     "name": "Batgirl IV",
@@ -27,7 +27,7 @@ i intend to use this superheroAPI. https://superheroapi.com/index.html. here is 
     "first-appearance": "Batman: Legends of the Dark Knight #120",
     "publisher": "DC Comics",
     "alignment": "good"
-}
+}```
 
 ## Wireframes
 Here is my wireframe. I built it first with a phone in mind.
