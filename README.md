@@ -2,11 +2,11 @@
 
 ## Project Name
 
-random superhero/villain generator
+superhero/villain info generator
 
 ## Project Description
 
-This website will enable the user select between hero, villain, or netural  and get a random person from eother alignment as well as any information about said person such as their first issued apperance.
+This website will enable the user select between hero, or villian  and get a random person from eother alignment as well as any information about said person such as their first issued apperance.
 
 ## API and Data Sample
 
@@ -48,13 +48,14 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Build website using html, css, javascript
 - make an heaader,footer, and about us
 - make the about us page show an alert on the screen to giving information about the site.
-- have 3 functional buttons render data from the api
-- have each button that reperesents hero, villians and netural bring random characters from each alignment
+- have  functional buttons render data from the api
+- have each button that reperesents heroes and villians bring random characters from each alignment
 - show a image, and information about each character when one of the button is selected
 
 #### PostMVP  
 
 - use another api that allow me to bring videos of those characters that was seletced with them
+- add another button for netural alignment
 
 ## Project Schedule
 
@@ -66,8 +67,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|June 23| Pseudocode / actual code | Incomplete
-|June 24| Initial Clickable Model  | Incomplete
+|June 22-23| Pseudocode / actual code | Incomplete
+|June 24-25| Initial Clickable Model  | Incomplete
 |June 25| MVP | Incomplete
 |June 28| Presentations | Incomplete
 
@@ -90,9 +91,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Getting the API working | M | 3 hrs| 3 hrs | 0 hrs |
-| Setting up the html and css | H | 5hrs| 0 hrs | 0 hrs |
-| get functionality on the about me | H | 2 hrs| 0 hrs | 0 hrs |
+| Getting the API rendering data | M | 3 hrs| 3 hrs | 0 hrs |
+| Setting up the html and css | M | 8hrs| 0 hrs | 0 hrs |
+| get functionality on the about me | L | 2 hrs| 0 hrs | 0 hrs |
 | Get functionality on the buttons | H | 8hrs| 0 hrs | 0 hrs |
 | Total | H | 40rs| 0hrs | 0hrs |
 
@@ -101,11 +102,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
