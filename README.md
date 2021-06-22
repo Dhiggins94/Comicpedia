@@ -94,7 +94,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Setting up the html and css | H | 5hrs| 0 hrs | 0 hrs |
 | get functionality on the about me | H | 2 hrs| 0 hrs | 0 hrs |
 | Get functionality on the buttons | H | 8hrs| 0 hrs | 0 hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 6hrs| 40hrs | 0hrs |
 
 
 ## Code Snippet
