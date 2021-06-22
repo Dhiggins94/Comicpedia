@@ -2,7 +2,7 @@
 
 ## Project Name
 
-superhero/villain info generator
+comicpedia
 
 ## Project Description
 
