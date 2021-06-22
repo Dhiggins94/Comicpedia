@@ -6,11 +6,10 @@ superhero/villain info generator
 
 ## Project Description
 
-This website will enable the user select between hero, or villian  and get a random person from eother alignment as well as any information about said person such as their first issued apperance.
+This website will enable the user select between hero, or villian  and get a random person from either alignment as well as any information about said person such as their first issued apperance.
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 
 i intend to use this superheroAPI. https://superheroapi.com/index.html. here is the json of a characters biography 
 
@@ -38,18 +37,13 @@ Here is my wireframe. I built it first with a phone in mind.
 
 
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
 
 - use postman to get data from the api as proof it works
 - Build website using html, css, javascript
-- make an heaader,footer, and about us
-- make the about us page show an alert on the screen to giving information about the site.
+- make an about us show an alert to tell the user about the site
 - have  functional buttons render data from the api
-- have each button that reperesents heroes and villians bring random characters from each alignment
+- have each button that reperesents heroes and villians bring random characters from each alignment if possible
 - show a image, and information about each character when one of the button is selected
 
 #### PostMVP  
