@@ -53,17 +53,15 @@ Here is my wireframe. I built it first with a phone in mind.
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
 
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
 |June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
 |June 22-23| Pseudocode / actual code | Incomplete
-|June 24-25| Initial Clickable Model  | Incomplete
-|June 25| MVP | Incomplete
+|June 24-25| Initial Clickable Model/MVP| Incomplete
+|June 25| Advanced css flexbox | Incomplete
 |June 28| Presentations | Incomplete
 
 ## Priority Matrix
