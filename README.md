@@ -42,6 +42,7 @@ Here is my wireframe. I built it first with a phone in mind.
 - use postman to get data from the api as proof it works
 - Build website using html, css, javascript
 - make an about us show an alert to tell the user about the site
+- style website with flexbox and use @media query 
 - have  functional buttons render data from the api
 - have each button that reperesents heroes and villians bring random characters from each alignment if possible
 - show a image, and information about each character when one of the button is selected
