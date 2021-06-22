@@ -85,7 +85,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Getting the API rendering data | M | 3 hrs| 3 hrs | 0 hrs |
+| Getting the API rendering data | M | 3 hrs| 0 hrs | 0 hrs |
 | Setting up the html and css | M | 8hrs| 0 hrs | 0 hrs |
 | get functionality on the about me | L | 2 hrs| 0 hrs | 0 hrs |
 | Get functionality on the buttons | H | 8hrs| 0 hrs | 0 hrs |
