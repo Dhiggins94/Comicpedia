@@ -58,9 +58,9 @@ Here is my wireframe. I built it first with a phone in mind.
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|June 22-23| Pseudocode / actual code | Incomplete
+|June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Completed
+|June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | completed 
+|June 22-23| Pseudocode / actual code | W.I.P
 |June 24-25| Initial Clickable Model/MVP| Incomplete
 |June 25| Advanced css flexbox | Incomplete
 |June 28| Presentations | Incomplete
