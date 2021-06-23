@@ -26,6 +26,7 @@ font-size: 20px;
 /* this should highlight things when i hover over them */
 a{
   color: black;
+  padding: 5%;
 }
 
 a:hover {
