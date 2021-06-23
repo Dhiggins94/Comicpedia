@@ -8,6 +8,29 @@ const domain_name = 'https://superheroapi.com/';
 const apikey = '2820930967944502';
 const urlName = 'https://superheroapi.com/api/2820930967944502'
 
+
+
+let button1 = document.querySelector("hero")
+let button2 = document.querySelector("Villain")
+let container = document.querySelector()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const superHeroInfo = async () => {
   try {
     const getApiUrl = ` https://intense-inlet-61203.herokuapp.com/superheroapi.com/api/2820930967944502/search/batman`
