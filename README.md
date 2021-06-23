@@ -80,14 +80,14 @@ Here is my wireframe. I built it first with a phone in mind.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Getting the API rendering data | M | 1 hrs| 0 hrs | 0 hrs |
-| writing Pseudocode | M| 1 hrs| 0 hrs | 0 hrs |
-| Setting up the html and css | H | 3hrs| 0 hrs | 0 hrs |
-| Get functionality on the about me | L | 2 hrs| 0 hrs | 0 hrs |
+| Getting the API rendering data | M | 1 hrs| 2 hrs | 0 hrs |
+| writing Pseudocode | M| 1 hrs| 1 hrs | 0 hrs |
+| Setting up the html and css | H | 3hrs| 3 hrs | 0 hrs |
+| Get functionality on the about me | L | 2 hrs| .5 hrs | 0 hrs |
 | Get functionality on the buttons | H | 3hrs| 0 hrs | 0 hrs |
 | Get the API to iterate random heroes/villian by button | H| 3 hrs| 0 hrs | 0 hrs |
-| Advance styling for css(flexbox) | H | 3 hrs| 0 hrs | 0 hrs |
-| Using media queries for phones/desktops | H | 3 hrs| 0 hrs | 0 hrs |
+| Advance styling for css(flexbox) | H | 3 hrs| 2 hrs | 0 hrs |
+| Using media queries for phones/desktops | H | 3 hrs| 2 hrs | 0 hrs |
 | Checking for errors in javascript | H | 3 hrs| 0 hrs | 0 hrs |
 | Checking for errors in CSS styling | H | 3 hrs| 0 hrs | 0 hrs |
 | Deploy the website, get it peered review | L | 2 hrs| 0 hrs | 0 hrs |
