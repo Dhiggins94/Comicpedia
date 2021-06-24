@@ -8,98 +8,82 @@ const domain_name = 'https://superheroapi.com/';
 const apikey = '2820930967944502';
 const urlName = 'https://superheroapi.com/api/2820930967944502'
 
-// function for button
-function buttonLog() {
-  console.log(button.value)
-  superHeroInfo(button)
-}
+
 const heroButton = document.querySelector('.doog')
 const villainButton = document.querySelector('.dab')
 
 
-// place where things will append to
 let container = document.querySelector(".info-placement")
 
-// getting the data from the api
-const superHeroInfo = async (id) => {
-  try {
-    // const getApiUrl =  await axios.get(`https://intense-inlet-61203.herokuapp.com/superheroapi.com/api/2820930967944502&s=${button.value}`)
-    const getApiUrl = ` https://intense-inlet-61203.herokuapp.com/superheroapi.com/api/2820930967944502/${id}`
-    const response = await axios.get(getApiUrl)
-    console.log(response)
-    // const arrayId = getApiUrl
-    // getList(arrayId)    // return response
+
+const superHeroInfo = async (value) => {
+   
+   const min = 1
+   const max = 731
+   const randomId = Math.floor(Math.random() * (max - min) + min)
+   try {
+         const getApiUrl = ` https://intense-inlet-61203.herokuapp.com/superheroapi.com/api/2820930967944502/${randomId}`
+      const response = await axios.get(getApiUrl)
+     
+     if (response.data.biography.alignment === value) {
+       removeContent(container)
+      showSomething(response.data)
+      return response
+     } else {
+       superHeroInfo()
+     }
+  
+  
   } catch (error) {
     console.error(error)
   }
 
 }
-superHeroInfo()
-
-// iterate over the data and append heroes to the dom/button.
-
-// good id = 1 2 3 7 8 9 10 11 14 16 17 19 30
-// bad id  = 4 5 6 12 13 15 18 20 21 27 29 32
 
 
-let heroId = [1, 2, 3, 7, 8, 9, 10, 11, 14, 16, 17, 19, 30]
-let goodId = heroId[Math.floor(Math.random() * heroId.length -1)]
-console.log(heroId[Math.floor(Math.random() * heroId.length -1)]
-)
 
-let villainsId = [4, 5, 6, 12, 13, 15, 18, 20, 21, 27, 29, 32]
-let badId = (villainsId[Math.floor(Math.random() * villainsId.length - 1)])
 
-console.log(villainsId[Math.floor(Math.random() * villainsId.length - 1)])
 
 
 // iterate over the data and append villains to the dom/button
-heroButton.addEventListener("click",() => {
-  superHeroInfo(goodId)
+heroButton.addEventListener("click", (e) => {
+  // removeContent(container)
+  superHeroInfo(e.target.value)
+
 })
 
-villainButton.addEventListener("click", () => {
-  superHeroInfo(badId)
+villainButton.addEventListener("click", (e) => {
+  // removeContent(container)
+superHeroInfo(e.target.value)
 })
 
 
-// APPEND THINGS what do we need?
-// we start with appending names, biography and finally image of their faces
-// we should also make a new request to remove them from the dom once we select a new button\
-// lets work from the bottom up.
 
-// to remove old inputs from the dom
-// function removeContents(content) {
-//   while (content.lastChild) {
-//     content.removeChild(content.lastChild)
-//   }
-// }
-
-// removeContents(container)
-// removeContents(images,superList,bioInfo)
-
-function getList() {
+function showSomething(info) {
   
-  for (let i = 0; i < heroId.length; i++) {
-    
-    const bioInfo = document.createElement('div')
-    bioInfo.textContent = heroId[i].biography
-    container.append(bioInfo)
+  const name = document.createElement("p")
+  name.textContent = info.biography["full-name"]
+  container.appendChild(name)
+  
+
   }
-}
+
+
+  function removeContent(element) {
+  
+    while (element.lastChild) {
+      element.removeChild(element.lastChild)
+    }
+    }
+
+
+
+
+// heiroku server makes it take longer to load, distract with loading bar
 
 
 
 
 
-
-
-
-
-
-
-
-
-// stuff we append things with
 
   
