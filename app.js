@@ -59,5 +59,5 @@ villainButton.addEventListener("click", () => {
 })
 
 
-// call them by biography? find way to call them by their alignment
+// APPEND THINGS
 
