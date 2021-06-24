@@ -27,8 +27,8 @@ const superHeroInfo = async (id) => {
     const getApiUrl = ` https://intense-inlet-61203.herokuapp.com/superheroapi.com/api/2820930967944502/${id}`
     const response = await axios.get(getApiUrl)
     console.log(response)
-    // const pressHero = getApiUrl.data.Search
-    // return pressHero
+    // const arrayId = getApiUrl
+    // getList(arrayId)    // return response
   } catch (error) {
     console.error(error)
   }
@@ -43,7 +43,7 @@ superHeroInfo()
 
 
 let heroId = [1, 2, 3, 7, 8, 9, 10, 11, 14, 16, 17, 19, 30]
-let GoodId = heroId[Math.floor(Math.random() * heroId.length -1)]
+let goodId = heroId[Math.floor(Math.random() * heroId.length -1)]
 console.log(heroId[Math.floor(Math.random() * heroId.length -1)]
 )
 
@@ -55,7 +55,7 @@ console.log(villainsId[Math.floor(Math.random() * villainsId.length - 1)])
 
 // iterate over the data and append villains to the dom/button
 heroButton.addEventListener("click",() => {
-  superHeroInfo(GoodId)
+  superHeroInfo(goodId)
 })
 
 villainButton.addEventListener("click", () => {
@@ -63,5 +63,43 @@ villainButton.addEventListener("click", () => {
 })
 
 
-// APPEND THINGS
+// APPEND THINGS what do we need?
+// we start with appending names, biography and finally image of their faces
+// we should also make a new request to remove them from the dom once we select a new button\
+// lets work from the bottom up.
 
+// to remove old inputs from the dom
+// function removeContents(content) {
+//   while (content.lastChild) {
+//     content.removeChild(content.lastChild)
+//   }
+// }
+
+// removeContents(container)
+// removeContents(images,superList,bioInfo)
+
+function getList() {
+  
+  for (let i = 0; i < heroId.length; i++) {
+    
+    const bioInfo = document.createElement('div')
+    bioInfo.textContent = heroId[i].biography
+    container.append(bioInfo)
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// stuff we append things with
+
+  
