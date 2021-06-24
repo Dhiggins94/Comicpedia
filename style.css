@@ -57,13 +57,14 @@ footer p{
 
 
 /* added media queries */
-@media (min-width: 200px){
+/* ask if device pixel ratio is neccesarry to add */
+@media (min-width: 360px){
   body{
     font-size: 30px;
     line-height: 2;
   }
   }
-  @media(max-width: 800px){
+  @media(max-width: 780px){
     body {font-size: 20px;
       line-height: 2;
   }

@@ -38,12 +38,16 @@ superHeroInfo()
 
 // iterate over the data and append heroes to the dom/button.
 
-let heroId = [1,2,3,4,5,6,7,8,9,10]
+// good id = 1 2 3 7 8 9 10 11 14 16 17 19 30
+// bad id  = 4 5 6 12 13 15 18 20 21 27 29 32
+
+
+let heroId = [1, 2, 3, 7, 8, 9, 10, 11, 14, 16, 17, 19, 30]
 let GoodId = heroId[Math.floor(Math.random() * heroId.length -1)]
 console.log(heroId[Math.floor(Math.random() * heroId.length -1)]
 )
 
-let villainsId = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+let villainsId = [4, 5, 6, 12, 13, 15, 18, 20, 21, 27, 29, 32]
 let badId = (villainsId[Math.floor(Math.random() * villainsId.length - 1)])
 
 console.log(villainsId[Math.floor(Math.random() * villainsId.length - 1)])
