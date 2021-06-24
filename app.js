@@ -65,8 +65,13 @@ function showSomething(info) {
   name.textContent = info.biography["full-name"]
   container.appendChild(name)
   
+  const photo = document.createElement('img')
+  console.log(photo)
+  photo.setAttribute("src" , info.image["url"])
+  container.appendChild(photo)
 
-  }
+}
+  
 
 
   function removeContent(element) {
