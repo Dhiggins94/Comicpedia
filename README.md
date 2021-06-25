@@ -60,9 +60,15 @@ Here is my wireframe. I built it first with a phone in mind.
 |---|---| ---|
 |June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Completed
 |June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | completed 
+<<<<<<< HEAD
 |June 22-23| Pseudocode / actual code | complete
 |June 24-25| Initial Clickable Model/MVP| complete
 |June 25| Advanced css flexbox | Incomplete
+=======
+|June 22-23| Pseudocode / actual code | completed
+|June 24-25| Initial Clickable Model/MVP| completed
+|June 25| Advanced css flexbox | completed
+>>>>>>> eff82180d677e46de06273aa89dd8b46cabb7ccd
 |June 28| Presentations | Incomplete
 
 ## Priority Matrix
@@ -84,6 +90,7 @@ Here is my wireframe. I built it first with a phone in mind.
 | writing Pseudocode | M| 1 hrs| 1 hrs | 1 hrs |
 | Setting up the html and css | H | 3hrs| 3 hrs | 3 hrs |
 | Get functionality on the about me | L | 2 hrs| .5 hrs | .5 hrs |
+<<<<<<< HEAD
 | Get functionality on the buttons | H | 3hrs| 3 hrs | 5 hrs |
 | Get the API to iterate random heroes/villian by button | H| 3 hrs| 8 hrs | 8 hrs |
 | Advance styling for css(flexbox) | H | 3 hrs| 2 hrs | 0 hrs |
@@ -91,6 +98,15 @@ Here is my wireframe. I built it first with a phone in mind.
 | Checking for errors in javascript | H | 3 hrs| 5 hrs | 5 hrs |
 | Checking for errors in CSS styling | H | 3 hrs| 3 hrs | 3 hrs |
 | Deploy the website, get it peered review | L | 2 hrs| 1 hrs | 0 hrs |
+=======
+| Get functionality on the buttons | H | 3hrs| 0 hrs | 6 hrs |
+| Get the API to iterate random heroes/villian by button | H| 3 hrs| 8 hrs | 8 hrs |
+| Advance styling for css(flexbox) | H | 3 hrs| 2 hrs | 2 hrs |
+| Using media queries for phones/desktops | H | 3 hrs| 2 hrs | 2 hrs |
+| Checking for errors in javascript | H | 3 hrs| 3 hrs | 4 hrs |
+| Checking for errors in CSS styling | H | 3 hrs| 3 hrs | 3 hrs |
+| Deploy the website, get it peered review | L | 2 hrs| 0 hrs | 0 hrs |
+>>>>>>> eff82180d677e46de06273aa89dd8b46cabb7ccd
 | Practice presnetation | L | 2 hrs| 0 hrs | 0 hrs |
 | Total | N/A | 33hrs| 0hrs | 0hrs |
 
