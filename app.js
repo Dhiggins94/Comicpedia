@@ -99,5 +99,3 @@ function removeContent(element) {
 
 
 
-
-
