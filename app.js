@@ -62,13 +62,26 @@ superHeroInfo(e.target.value)
 function showSomething(info) {
   
   const name = document.createElement("p")
-  name.textContent = info.biography["full-name"]
+  name.textContent = info.name
   container.appendChild(name)
   
+  const description = document.createElement("p")
+  description.textContent = info.biography["first-appearance"]
+  container.append(description)
+
+  const issuing = document.createElement("p")
+  issuing.textContent = info.biography["publisher"]
+  container.append(issuing)
+
+  const group = document.createElement("p")
+  group.textContent = info.connections["affiliation"]
+container.append(group)
+
   const photo = document.createElement('img')
   console.log(photo)
   photo.setAttribute("src" , info.image["url"])
   container.appendChild(photo)
+
 
 }
   
