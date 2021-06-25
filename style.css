@@ -6,6 +6,7 @@ body{
   flex-direction: column;
   min-height: 100vh;
   min-width: 100vw;
+  font-family: Oswald;
 }
 
 
@@ -26,7 +27,7 @@ font-size: 20px;
 /* this should highlight things when i hover over them */
 a{
   color: black;
-  padding: 5%;
+  padding: 3%;
 }
 
 a:hover {
@@ -35,9 +36,25 @@ a:hover {
 
 
 
+header{
+  height: 400px;
+  background-image: url(https://i.imgur.com/HtUvc7k.jpg);
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+}
 
 
 
+.doog{
+  width: 100px;
+  color:red ;
+}
+
+.dab{
+  width: 100px;
+  color: blue;
+}
 
 /* this should style the footer, and its p tag inside  using flexbox*/
 footer{
