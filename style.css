@@ -1,6 +1,6 @@
-/*  style techniques i learned how to use  citation: relative lenghts, flexbox, via w3schools, csstricks, and flexbox froggy */
+/*  style and javascript techniques i learned how to use  citation: relative lenghts, flexbox, via w3schools, csstricks,flexbox froggy, recursion, issue tickets with squad lead, GA dashboard TA hours */
 
-
+/* styles the body, vh and vw viewpoint height and viewpoint widith */
 body{
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@ footer p{
 
 
 
-/* added media queries */
+/* added media queries. line height sets the distance between the lines and texts*/
 @media (min-width: 412px){
   body{
     font-size: 30px;
