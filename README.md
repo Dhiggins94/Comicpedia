@@ -90,7 +90,6 @@ Here is my wireframe. I built it first with a phone in mind.
 | writing Pseudocode | M| 1 hrs| 1 hrs | 1 hrs |
 | Setting up the html and css | H | 3hrs| 3 hrs | 3 hrs |
 | Get functionality on the about me | L | 2 hrs| .5 hrs | .5 hrs |
-<<<<<<< HEAD
 | Get functionality on the buttons | H | 3hrs| 3 hrs | 5 hrs |
 | Get the API to iterate random heroes/villian by button | H| 3 hrs| 8 hrs | 8 hrs |
 | Advance styling for css(flexbox) | H | 3 hrs| 2 hrs | 0 hrs |
@@ -98,15 +97,6 @@ Here is my wireframe. I built it first with a phone in mind.
 | Checking for errors in javascript | H | 3 hrs| 5 hrs | 5 hrs |
 | Checking for errors in CSS styling | H | 3 hrs| 3 hrs | 3 hrs |
 | Deploy the website, get it peered review | L | 2 hrs| 1 hrs | 0 hrs |
-=======
-| Get functionality on the buttons | H | 3hrs| 0 hrs | 6 hrs |
-| Get the API to iterate random heroes/villian by button | H| 3 hrs| 8 hrs | 8 hrs |
-| Advance styling for css(flexbox) | H | 3 hrs| 2 hrs | 2 hrs |
-| Using media queries for phones/desktops | H | 3 hrs| 2 hrs | 2 hrs |
-| Checking for errors in javascript | H | 3 hrs| 3 hrs | 4 hrs |
-| Checking for errors in CSS styling | H | 3 hrs| 3 hrs | 3 hrs |
-| Deploy the website, get it peered review | L | 2 hrs| 0 hrs | 0 hrs |
->>>>>>> eff82180d677e46de06273aa89dd8b46cabb7ccd
 | Practice presnetation | L | 2 hrs| 0 hrs | 0 hrs |
 | Total | N/A | 33hrs| 0hrs | 0hrs |
 
