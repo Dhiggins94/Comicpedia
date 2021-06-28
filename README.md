@@ -60,15 +60,9 @@ Here is my wireframe. I built it first with a phone in mind.
 |---|---| ---|
 |June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Completed
 |June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | completed 
-<<<<<<< HEAD
 |June 22-23| Pseudocode / actual code | complete
 |June 24-25| Initial Clickable Model/MVP| complete
 |June 25| Advanced css flexbox | complete
-=======
-|June 22-23| Pseudocode / actual code | complete
-|June 24-25| Initial Clickable Model/MVP| complete
-|June 25| Advanced css flexbox | complete
->>>>>>> eff82180d677e46de06273aa89dd8b46cabb7ccd
 |June 28| Presentations | W.I.P
 
 ## Priority Matrix
