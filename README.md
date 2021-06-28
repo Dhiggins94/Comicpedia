@@ -2,7 +2,7 @@
 
 ## Project Name
 
-comicpedia
+https://dhiggins94.github.io/Comicpedia/
 
 ## Project Description
 
