@@ -60,18 +60,11 @@ function showSomething(info) {
   issuing.textContent = info.biography["publisher"]
   container.append(issuing)
 
-  // if (issuing.textContent = info.biography["publisher"] === "-"){
-  //   issuing.textContent = info.biography["full-name"]
-  //   return container.append(issuing)
-  // }
 
   const group = document.createElement("p")
   group.textContent = info.connections["group-affiliation"]
   container.append(group)
 
-  // if ( group.textContent = info.connections["group-affiliation"] === "-") {
-  //   group.textContent = info.biography["alter-egos"]
-  //   return container.append(group)   
 
   const photo = document.createElement('img')
   console.log(photo)
@@ -93,7 +86,6 @@ function removeContent(element) {
 
 
 
-// heiroku server makes it take longer to load, distract with loading bar
 
 
 

@@ -73,7 +73,6 @@ footer p{
 
 
 /* added media queries */
-/* ask if device pixel ratio is neccesarry to add */
 @media (min-width: 412px){
   body{
     font-size: 30px;
@@ -85,14 +84,3 @@ footer p{
       line-height: 2;
   }
   }
-  /* @media(orientation: landscape){
-    body {
-      flex-direction: row;
-    }
-  }
-
-  @media(orientation: portrait){
-    body {
-      flex-direction: row-reverse;
-    }
-  } */

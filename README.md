@@ -63,13 +63,13 @@ Here is my wireframe. I built it first with a phone in mind.
 <<<<<<< HEAD
 |June 22-23| Pseudocode / actual code | complete
 |June 24-25| Initial Clickable Model/MVP| complete
-|June 25| Advanced css flexbox | Incomplete
+|June 25| Advanced css flexbox | complete
 =======
-|June 22-23| Pseudocode / actual code | completed
-|June 24-25| Initial Clickable Model/MVP| completed
-|June 25| Advanced css flexbox | completed
+|June 22-23| Pseudocode / actual code | complete
+|June 24-25| Initial Clickable Model/MVP| complete
+|June 25| Advanced css flexbox | complete
 >>>>>>> eff82180d677e46de06273aa89dd8b46cabb7ccd
-|June 28| Presentations | Incomplete
+|June 28| Presentations | W.I.P
 
 ## Priority Matrix
 
@@ -86,25 +86,31 @@ Here is my wireframe. I built it first with a phone in mind.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Getting the API rendering data | M | 1 hrs| 2 hrs | 3 hrs |
+| Getting the API rendering data | M | 1 hrs| 2 hrs | 4 hrs |
 | writing Pseudocode | M| 1 hrs| 1 hrs | 1 hrs |
 | Setting up the html and css | H | 3hrs| 3 hrs | 3 hrs |
 | Get functionality on the about me | L | 2 hrs| .5 hrs | .5 hrs |
 | Get functionality on the buttons | H | 3hrs| 3 hrs | 5 hrs |
 | Get the API to iterate random heroes/villian by button | H| 3 hrs| 8 hrs | 8 hrs |
-| Advance styling for css(flexbox) | H | 3 hrs| 2 hrs | 0 hrs |
+| Advance styling for css(flexbox) | H | 3 hrs| 2 hrs | 2 hrs |
 | Using media queries for phones/desktops | H | 3 hrs| 2 hrs | 2hrs |
 | Checking for errors in javascript | H | 3 hrs| 5 hrs | 5 hrs |
 | Checking for errors in CSS styling | H | 3 hrs| 3 hrs | 3 hrs |
-| Deploy the website, get it peered review | L | 2 hrs| 1 hrs | 0 hrs |
-| Practice presnetation | L | 2 hrs| 0 hrs | 0 hrs |
-| Total | N/A | 33hrs| 0hrs | 0hrs |
+| Deploy the website, get it peered review | L | 2 hrs| 1 hrs | .5 hrs |
+| Practice presnetation | L | 2 hrs| 2 hrs | 1 hrs |
+| Total | N/A | 33hrs| 40hrs | 35hrs |
 
 
 ## Code Snippet
 
-N/A
+```
+const min = 1
+  const max = 731
+  const randomId = Math.floor(Math.random() * (max - min) + min)   
+  ```
+  i like this code snippet alot because prior to this my inital plan was to use arrays and personally input good and bad id's and to look randomly through the array but since it wasnt utilizing the full character id of the site, i learned that using math.floor and random while giving the id values i can bring up all of them randomly which saved me alot of time.
 
 
 ## Change Log
-N/A
+issue i had: i received an CORS error while trying to access my api, solution to issue: filed out an issue ticket and it was solved by using an heroku server to gain access.
+
