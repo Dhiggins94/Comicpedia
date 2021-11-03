@@ -6,7 +6,7 @@ const urlName = 'https://superheroapi.com/api/2820930967944502'
 // grabs the buttons from the html
 const heroButton = document.querySelector('.doog')
 const villainButton = document.querySelector('.dab')
-
+const neutralButton = document.querySelector('.neut')
 // created a container to later append things to the DOM
 let container = document.querySelector(".info-placement")
 
@@ -46,6 +46,9 @@ villainButton.addEventListener("click", (e) => {
   superHeroInfo(e.target.value)
 })
 
+neutralButton.addEventListener("click", (e) => {
+  superHeroInfo(e.target.value)
+})
 // everything here is used for appending things to the DOM
 function showSomething(info) {
 
@@ -55,23 +58,43 @@ function showSomething(info) {
 
   const description = document.createElement("p")
   description.textContent = info.biography["first-appearance"]
-  container.append(description)
+  if (description.textContent === "-") {
+    description.textContent = "INFORMATION NOT AVALIABLE"
+    container.append(description)
+  }
+  else {
+    container.append(description)
+    }
 
   const issuing = document.createElement("p")
   issuing.textContent = info.biography["publisher"]
-  container.append(issuing)
-
+  if (issuing.textContent === "-") {
+    group.textContent = " INFORMATION NOT AVALIABLE"
+    container.append(issuing)
+  }
+  else {
+    container.append(issuing)
+    }
 
   const group = document.createElement("p")
   group.textContent = info.connections["group-affiliation"]
+if (group.textContent === "-") {
+  group.textContent = "INFORMATION NOT AVALIABLE"
   container.append(group)
-
+}
+else {
+  container.append(group)
+  }
 
   const photo = document.createElement('img')
-  console.log(photo)
   photo.setAttribute("src", info.image["url"])
-  container.appendChild(photo)
-
+  if (photo.setAttribute("src", info.image["url"]) === "-") {
+    photo.setAttribute("src", info.image["url"]) = "INFORMATION NOT AVALIABLE"
+    container.appendChild(photo)
+  }
+  else {
+    container.appendChild(photo)
+    }
 }
 
 

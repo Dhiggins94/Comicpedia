@@ -56,6 +56,13 @@ header{
   color: blue;
 }
 
+
+.neut{
+  width: 100px;
+  color:gray;
+}
+
+
 /* this should style the footer, and its p tag inside  using flexbox*/
 footer{
   background-color: darkgray;
